@@ -6,6 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+.mainn{
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+}
+h1, h2, h4{
+  justify-content: center;
+  align-items: center;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -22,6 +34,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100%;
 }
 
 .App-link {
